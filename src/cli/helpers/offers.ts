@@ -5,6 +5,7 @@ import { LivingType } from '../../types/livingType.js';
 import { Offer } from '../../types/offer.js';
 import { MockData } from '../../types/mockData.js';
 import dayjs from 'dayjs';
+import { UserEntity } from '../../core/users/userEntity.js';
 
 const FIRST_WEEK_DAY = 1;
 const LAST_WEEK_DAY = 7;
@@ -66,18 +67,18 @@ export function parseOffer(offerRaw: string): Offer {
     premium: premium as unknown as boolean,
     favorite: favorite as unknown as boolean,
     rating: parseFloat(rating),
-    housingType: livingType as unknown as LivingType,
+    livingType: livingType as unknown as LivingType,
     numberOfRooms: parseInt(roomCount, 10),
     numberOfGuests: parseInt(guestCount, 10),
     rentalCost: parseInt(price, 10),
-    amenities: service.split(',').map((x) => x as unknown as Service),
-    author: {
+    services: service.split(',').map((x) => x as unknown as Service),
+    author: new UserEntity({
       name: offerAuthorName,
       avatar: offerAuthorAvatar,
       type: offerAuthorType as unknown as UserType,
       email: offerAuthorEmail,
       password: offerAuthorPassword
-    },
+    }),
     numberOfComments: parseInt(commentsCount, 10),
     coordinates: {latitude: parseFloat(latitude), longitude: parseFloat(longitude)}
   };
