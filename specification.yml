@@ -175,7 +175,7 @@ paths:
 
     post:
       tags:
-        - Favourites
+        - Comments
       summary: Create a new comment for an offer
       parameters:
         - name: offerId
@@ -205,7 +205,7 @@ paths:
   /offers/{offerId}/favorites:
     post:
       tags:
-        - Favourites
+        - Offers
       summary: Add an offer to favorites
       description: Add an offer to the user's list of favorites.
       parameters:
