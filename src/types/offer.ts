@@ -1,8 +1,8 @@
-import {User} from './user.js';
 import {City} from './city.js';
 import {Coordinates} from './coordinates.js';
 import { LivingType } from './livingType.js';
 import { Service } from './service.js';
+import { UserEntity } from '../core/users/userEntity.js';
 
 
 export type Offer = {
@@ -15,12 +15,12 @@ export type Offer = {
     premium: boolean;
     favorite: boolean;
     rating: number;
-    housingType: LivingType;
+    livingType: LivingType;
     numberOfRooms: number;
     numberOfGuests: number;
     rentalCost: number;
-    amenities: Service[];
-    author: User;
+    services: Service[];
+    author: UserEntity;
     numberOfComments: number;
     coordinates: Coordinates
 }

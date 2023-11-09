@@ -1,2 +1,2 @@
-Квартира	Ну квартира	2022-01-01T11:12:15	Paris	image.jpg	i1.jpg, i2.jpg	true	true	5	apartment	1	5	10000	Washer	автор	avatar.jpg	pro	autor@mail.ru	пароль	10	1.1	1.2
-Квартира2	не дом	2022-01-01T12:12:15	Paris	image.jpg	i1.jpg, i2.jpg	false	false	5	apartment	1	5	100	Breakfast	автор2	avatar.jpg	pro	autor@mail.ru	пароль	10	1.1	2.2
+Квартира	Ну квартира	2022-01-01T11:12:15	Paris	image.jpg	i1.jpg, i2.jpg	true	true	5	Apartment	1	5	10000	Washer	автор	avatar.jpg	pro	autor@mail.ru	пароль	10	1.1	1.2
+Квартира2	не дом	2022-01-01T12:12:15	Paris	image.jpg	i1.jpg, i2.jpg	false	false	5	Apartment	1	5	100	Breakfast	автор2	avatar.jpg	pro	autor@mail.ru	пароль	10	1.1	2.2
