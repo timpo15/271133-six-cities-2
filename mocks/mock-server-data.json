@@ -1,0 +1,65 @@
+{
+  "names": [
+    "Дом",
+    "Квартира",
+    "Деревенский дом",
+    "Отель",
+    "Хостел"
+  ],
+  "descriptions": [
+    "ужасный вариант",
+    "варинт ничего так",
+    "ну с пивом потянет",
+    "отдохнуть отгородской суеты",
+    "отдохнуть от благ цивилизации",
+    "суровое испытание навыков выживания"
+  ],
+  "previewImages": [
+    "pI1.jpg",
+    "pI2.jpg",
+    "pI3.jpg",
+    "pI4.jpg",
+    "pI5.jpg"
+  ],
+  "propertyImages": [
+    "prI1.jpg",
+    "prI2.jpg",
+    "prI3.jpg",
+    "prI4.jpg",
+    "prI5.jpg"
+  ],
+  "coordinates": {
+    "latitude": [2.4444, 3.4444, 5.6666],
+    "longitude": [8.4444, 4.4444, 56.6666]
+  },
+  "users" : {
+    "names": [
+      "автор",
+      "автор2",
+      "автор3",
+      "автор4",
+      "автор5"
+    ],
+    "avatars": [
+      "a1.jpg",
+      "a2.jpg",
+      "a3.jpg",
+      "a4.jpg",
+      "a5.jpg"
+    ],
+    "emails": [
+      "e1@mail.ru",
+      "e2@mail.ru",
+      "e3@mail.ru",
+      "e4@mail.ru",
+      "e5@mail.ru"
+    ],
+    "passwords": [
+      "password",
+      "password2",
+      "password3",
+      "password4",
+      "password5"
+    ]
+  }
+}
