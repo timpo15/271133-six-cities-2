@@ -6,8 +6,7 @@ export enum UserType {
 export type User = {
     name: string;
     email: string;
+    isPro: boolean;
     avatar?: string;
-    password: string;
-    type: UserType;
 }
 

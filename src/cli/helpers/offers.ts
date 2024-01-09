@@ -51,14 +51,12 @@ export function parseOffer(offerRaw: string): Offer {
     service,
     offerAuthorName,
     offerAuthorAvatar,
-    offerAuthorType,
     offerAuthorEmail,
-    offerAuthorPassword,
     commentsCount,
     latitude,
     longitude,] = offer;
   return {
-    name: name,
+    title: name,
     description: description,
     publicationDate: new Date(publicationDate),
     city: city as unknown as City,
@@ -75,9 +73,8 @@ export function parseOffer(offerRaw: string): Offer {
     author: new UserEntity({
       name: offerAuthorName,
       avatar: offerAuthorAvatar,
-      type: offerAuthorType as unknown as UserType,
-      email: offerAuthorEmail,
-      password: offerAuthorPassword
+      isPro: false,
+      email: offerAuthorEmail
     }),
     numberOfComments: parseInt(commentsCount, 10),
     coordinates: {latitude: parseFloat(latitude), longitude: parseFloat(longitude)}

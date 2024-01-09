@@ -6,7 +6,7 @@ import { UserEntity } from '../core/users/userEntity.js';
 
 
 export type Offer = {
-    name: string;
+    title: string;
     description: string;
     publicationDate: Date;
     city: City;

@@ -6,4 +6,5 @@ export type Comment = {
     publicationDate: Date;
     rating: number;
     author: User;
+    offerId: string;
 }
